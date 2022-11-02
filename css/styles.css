@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    margin-top: 20px;
+    margin: 50px 0 50px;
 }
 
 
@@ -28,6 +28,7 @@ body {
 }
 
 .video-double-itself {
+    vertical-align: middle;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -41,7 +42,7 @@ body {
     display: inline-block;
     padding: 0;
     width: auto;
-    height: 99%;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
@@ -59,9 +60,31 @@ body {
 
 
 
-/* TEST MINE */
 
 
+
+
+
+
+
+
+
+
+
+
+/* TEST TEST TEST TEST TEST TEST TEST TEST
+TEST TEST TEST TEST TEST TEST TEST TEST
+TEST TEST TEST TEST TEST TEST TEST TEST
+TEST TEST TEST TEST TEST TEST TEST TEST */
+
+
+
+#test {
+    margin-top: 2000px;
+}
+
+
+/* TEST ICON */
 
 .icon-div {
     overflow: hidden;
@@ -74,17 +97,6 @@ body {
     margin-left: 50%;
     transform: translateX(-50%);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* TEST TECHLAND STYLE */
 
@@ -109,4 +121,9 @@ body {
     top: 0;
     width: 250px;
     z-index: 9;
+}
+
+
+.video-test {
+    vertical-align: middle;
 }
