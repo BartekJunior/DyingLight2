@@ -1,4 +1,80 @@
-
 body {
     background-color: #000000;
+}
+
+
+/* BOOTSTRAP REPAIR */
+.col {
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+/********************* SECTION VIDEO-DOUBLE *********************/
+
+
+.container-fluid {
+    /* overflow-x: hidden; */
+}
+
+.video-double-itself {
+    width: auto;
+}
+
+
+
+.row {
+    position: relative;
+}
+
+.cloud {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TEST TECHLAND STYLE */
+
+.test {
+    position: relative;
+}
+
+.test::after {
+
+    background-image: url('../img/cloud.png');
+    background-position-x: 50%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 250px;
+    z-index: 9;
 }
