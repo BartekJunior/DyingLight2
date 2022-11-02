@@ -16,15 +16,10 @@ body {
 
 /********************* SECTION VIDEO-DOUBLE *********************/
 
-
-.container-fluid {
-    /* overflow-x: hidden; */
-}
-
-
 .video-container {
     overflow: hidden;
     height: auto;
+    position: relative;
 }
 
 .video-double-itself {
@@ -33,9 +28,9 @@ body {
     transform: translateX(-50%);
 }
 
-
 .row {
     position: relative;
+    /* For .cloud position absolute */
 }
 
 .cloud {
@@ -51,7 +46,24 @@ body {
     z-index: 10;
 }
 
+.video-text {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
 
+    display: inline-flex;
+    width: 250px;
+    height: 200px;
+}
+
+.logo {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+}
 
 
 
