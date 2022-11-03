@@ -8,6 +8,10 @@ body {
     margin: 50px 0 50px;
 }
 
+section {
+    padding: 50px 0;
+}
+
 
 /* BOOTSTRAP REPAIR */
 .col {
@@ -16,6 +20,7 @@ body {
 }
 
 
+/*** BUTTONS RED ***/
 .button-red {
     background-image: url('../img/button-red.svg');
     background-color: transparent;
@@ -50,7 +55,7 @@ body {
 
 
 
-/********************* SECTION VIDEO-DOUBLE *********************/
+/* ******************** SECTION VIDEO-DOUBLE ******************** */
 
 #video-double .video-container {
     overflow: hidden;
@@ -104,6 +109,17 @@ body {
     display: block;
     height: 100px;
     margin: 15px 0;
+}
+
+
+/* ******************** SECTION TIMELINE ******************** */
+
+#section-timeline {
+    text-align: center;
+}
+
+.timeline-p {
+    margin: 50px 0;
 }
 
 
