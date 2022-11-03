@@ -11,29 +11,49 @@ body {
 }
 
 
+.button-red {
+    background-image: url('../img/button-red.svg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.button-red:hover {
+    background-image: url('../img/button-border.svg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 0 0;
+}
+
 
 
 
 /********************* SECTION VIDEO-DOUBLE *********************/
 
-.video-container {
+#video-double .video-container {
     overflow: hidden;
     height: auto;
     position: relative;
 }
 
-.video-double-itself {
+#video-double .video-double-itself {
     vertical-align: middle;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-.row {
+#video-double .row {
     position: relative;
     /* For .cloud position absolute */
 }
 
-.cloud {
+#video-double .cloud {
     display: inline-block;
     padding: 0;
     width: auto;
@@ -46,7 +66,7 @@ body {
     z-index: 10;
 }
 
-.video-text {
+#video-double .video-text {
     position: absolute;
     top: 180px;
     left: 0;
@@ -54,12 +74,15 @@ body {
     margin-left: 50%;
     transform: translateX(-50%);
 
-    display: inline-flex;
     width: 250px;
     height: 200px;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
-.logo {
+#video-double .video-logo {
     display: block;
     height: 100px;
     margin: 0 auto;
