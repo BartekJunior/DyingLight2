@@ -13,22 +13,34 @@ body {
 
 .button-red {
     background-image: url('../img/button-red.svg');
-    background-color: #000000;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-
     border: none;
+
     color: #FFFFFF;
-    padding: 10px 0;
-    width: 100%;
+    padding: 15px 0;
+    width: 240px;
     text-transform: uppercase;
+
+    position: relative;
+    /* position relative for border .svg */
 }
 
-.button-red:hover {
+.button-red:hover:after {
     background-image: url('../img/button-border.svg');
     background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: 0 0;
+    background-color: transparent;
+    color: #FFFFFF;
+
+    width: 260px;
+    height: 80px;
+
+    position: absolute;
+    left: -8px;
+    top: -15px;
+    content: "";
+
 }
 
 
@@ -63,7 +75,7 @@ body {
     right: 0;
     top: 0;
     margin: 0 auto;
-    z-index: 10;
+    z-index: 3;
 }
 
 #video-double .video-text {
@@ -73,19 +85,21 @@ body {
     right: 0;
     margin-left: 50%;
     transform: translateX(-50%);
+    z-index: 5;
 
     width: 250px;
     height: 200px;
 
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
     justify-content: end;
 }
 
 #video-double .video-logo {
     display: block;
     height: 100px;
-    margin: 0 auto;
+    margin: 15px 0;
 }
 
 
