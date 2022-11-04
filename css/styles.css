@@ -154,49 +154,72 @@ section {
     margin: 50px 0;
 }
 
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
+.carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: aqua;
 }
 
 /* ******** CAROUSEL TIMELINE ******* */
 
 
+.link-red {
+    display: inline-block;
+    background-color: red;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 22px;
+    border-radius: 5%;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+#section-timeline .item-text {
+    color: #FFFFFF;
+    text-align: left;
+    position: absolute;
+    bottom: 30px;
+}
+
+.item-date {
+    margin: 10px 0 25px;
+}
+
+.item-p {
+    display: inline-block;
+    width: 75%;
+}
+
+
+
+
+
+
 .carousel {
-    width: 1260px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .carousel-inner {
     width: 880px;
-    height: 600px;
     margin: 0 auto;
 }
 
 .carousel-item {
-    width: 880px;
+    position: relative;
     height: 600px;
+    padding: 0 20px;
 }
 
 
-
-
-.item-text {
-    color: #FFFFFF;
-    text-align: left;
-}
 
 .item1 {
     background-image: url('../img/timeline/update.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(83, 47, 47);
-
 }
 
 .item2 {
-    background-image: url('../img/timeline/parkour.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/timeline/parkour.jpg');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -214,30 +237,6 @@ section {
 
 
 
-
-
-.div1 {
-    width: 1500px;
-    height: 1100px;
-    background-color: grey;
-    margin: 0 auto;
-}
-
-.div2 {
-    background-image: url('../img/timeline/new-game-plus.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-
-    width: 900px;
-    height: 700px;
-    background-color: aqua;
-    margin: 0 auto;
-}
-
-.carousel-item.active {
-    margin: 0 auto;
-    align-items: center;
-}
 
 
 
