@@ -154,7 +154,8 @@ section {
     margin: 50px 0;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-color: aqua;
 }
 
@@ -173,9 +174,17 @@ section {
     margin-left: 20px;
 }
 
+.link-red:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid red;
+}
+
 #section-timeline .item-text {
     color: #FFFFFF;
     text-align: left;
+    width: 95%;
+
     position: absolute;
     bottom: 30px;
 }
@@ -188,7 +197,6 @@ section {
     display: inline-block;
     width: 75%;
 }
-
 
 
 
@@ -211,26 +219,79 @@ section {
 }
 
 
-
 .item1 {
-    background-image: url('../img/timeline/update.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url('../img/timeline/authority.jpg');
 }
 
 .item2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/timeline/parkour.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/ronin.jpg');
 }
 
 .item3 {
-    background-image: url('../img/timeline/new-game-plus.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-
+    background-image: url('../img/timeline/update-1.2.jpg');
 }
+
+.item4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/parkour.jpg');
+}
+
+.item5 {
+    background-image: url('../img/timeline/new-game-plus.jpg');
+}
+
+.item6 {
+    background-image: url('../img/timeline/booster-events.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item7 {
+    background-image: url('../img/timeline/update-1.4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item8 {
+    background-image: url('../img/timeline/launch-event.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/bloody-summer.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item10 {
+    background-image: url('../img/timeline/long-night-event.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item11 {
+    background-image: url('../img/timeline/community-update.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item12 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/update-1.6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item13 {
+    background-image: url('../img/timeline/hauntress.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
 
 
 
