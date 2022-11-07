@@ -306,6 +306,30 @@ section {
     background-size: cover;
 }
 
+.item14 {
+    background-image: url('../img/timeline/chapter-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item15 {
+    background-image: url('../img/timeline/pomiot.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item16 {
+    background-image: url('../img/timeline/halloween.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.item17 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/bloody-ties.png');
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 
