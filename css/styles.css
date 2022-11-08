@@ -25,12 +25,7 @@ section {
 
 /* BOOTSTRAP REPAIR */
 .col {
-    padding: 0;
     text-align: center;
-}
-
-.container-fluid {
-    /* padding: 0; */
 }
 
 
@@ -168,7 +163,8 @@ section {
 
 #section-timeline .carousel-inner {
     margin: 0 auto;
-    width: 880px;
+    width: 90%;
+    max-width: 880px;
     overflow: visible;
 }
 
@@ -178,7 +174,11 @@ section {
     padding: 0 20px;
     border-radius: 3%;
 
+    background-position: center;
+    background-size: cover;
 }
+
+
 
 
 /* CAROUSEL ITEM BORDER */
@@ -287,80 +287,56 @@ section {
 
 .item6 {
     background-image: url('../img/timeline/booster-events.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item7 {
     background-image: url('../img/timeline/update-1.4.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item8 {
     background-image: url('../img/timeline/launch-event.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item9 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/bloody-summer.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item10 {
     background-image: url('../img/timeline/long-night-event.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item11 {
     background-image: url('../img/timeline/community-update.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item12 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/update-1.6.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item13 {
     background-image: url('../img/timeline/hauntress.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item14 {
     background-image: url('../img/timeline/chapter-2.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item15 {
     background-image: url('../img/timeline/pomiot.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item16 {
     background-image: url('../img/timeline/halloween.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .item17 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/timeline/bloody-ties.png');
-    background-position: center;
-    background-size: cover;
 }
 
 
 /* ******************** SECTION COOL ******************** */
 
-#section-fade .container-fluid {
+#section-fade.container-fluid {
     margin: 0 10px 0 40px;
     width: 97%;
 }
@@ -371,10 +347,9 @@ section {
     margin-bottom: 40px;
 
     filter: invert(100%);
-
 }
 
-.border-trailer {
+#section-fade .border-trailer {
     padding: 100px 4% 70px 20px;
     margin-bottom: 20px;
     width: 100%;
@@ -406,11 +381,43 @@ section {
     overflow: hidden;
 }
 
-.fade-logo-itself {
+#section-fade .fade-logo-itself {
     display: block;
     width: 110%;
 }
 
+
+
+/* ******************** SECTION TRAILER ******************** */
+
+#section-trailer .trailer-container {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+#section-trailer .trailer-itself {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.trailer-description {
+    width: 500px;
+    height: 300px;
+    color: #FFFFFF;
+
+    text-align: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+
+}
 
 
 
@@ -426,6 +433,7 @@ section {
     width: 500px;
     height: 300px;
 }
+
 
 
 
