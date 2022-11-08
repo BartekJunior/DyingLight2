@@ -5,6 +5,7 @@ body {
     background-color: #000000;
     margin: 50px 0 50px;
     font-family: 'Lato', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 
@@ -359,9 +360,9 @@ section {
 
 /* ******************** SECTION COOL ******************** */
 
-
 #section-fade .container-fluid {
-    width: 90%;
+    margin: 0 10px 0 40px;
+    width: 97%;
 }
 
 #section-fade .trailer-iframe {
@@ -383,24 +384,9 @@ section {
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-  
+
     filter: invert(100%);
 }
-
-
-.div3 {
-    margin: 0 auto;
-    width: 500px;
-    height: 300px;
-}
-
-
-
-
-
-
-
-
 
 #section-fade .p-trailer {
     margin: 20px 0 40px;
@@ -415,6 +401,15 @@ section {
     filter: invert(100%);
 }
 
+#section-fade .col-right {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.fade-logo-itself {
+    display: block;
+    width: 110%;
+}
 
 
 
@@ -426,12 +421,11 @@ section {
 
 
 
-
-
-
-
-
-
+.div3 {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
 
 
 
