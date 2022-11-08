@@ -28,6 +28,10 @@ section {
     text-align: center;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
 
 /*** BUTTONS RED ***/
 .button-red {
@@ -148,10 +152,6 @@ section {
     margin: 50px 0;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: aqua;
-}
 
 /* ******************** CAROUSEL TIMELINE ******************** */
 
@@ -393,7 +393,7 @@ section {
 #section-trailer .trailer-container {
     overflow: hidden;
     height: auto;
-    width: auto;
+    width: 100%;
     position: relative;
 }
 
@@ -403,7 +403,7 @@ section {
     transform: translateX(-50%);
 }
 
-.trailer-description {
+#section-trailer .trailer-description {
     width: 500px;
     height: 300px;
     color: #FFFFFF;
@@ -414,25 +414,21 @@ section {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
 
-    
+#section-trailer .carousel-control-prev,
+#section-trailer .carousel-control-next {
+width: 150px;  
+}
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 80px;
+    height: 130px;
+    background-size: contain;
 }
 
 
-
-
-
-
-
-
-
-
-.div3 {
-    margin: 0 auto;
-    width: 500px;
-    height: 300px;
-}
 
 
 
@@ -444,6 +440,12 @@ section {
 TEST TEST TEST TEST TEST TEST TEST TEST
 TEST TEST TEST TEST TEST TEST TEST TEST
 TEST TEST TEST TEST TEST TEST TEST TEST */
+
+
+
+#test {
+    display: none;
+}
 
 .border-shit {
     background-image: url('../img/timeline/bloody-summer.jpg');
@@ -489,7 +491,6 @@ TEST TEST TEST TEST TEST TEST TEST TEST */
 }
 
 /* TEST TECHLAND STYLE */
-
 .test {
     position: relative;
 }
@@ -512,7 +513,6 @@ TEST TEST TEST TEST TEST TEST TEST TEST */
     width: 250px;
     z-index: 9;
 }
-
 
 .video-test {
     vertical-align: middle;
