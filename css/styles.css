@@ -435,6 +435,9 @@ width: 150px;
 
 /* ******************** SECTION NEWS ******************** */
 
+#section-news .container-fluid {
+    padding: 0 80px;
+}
 
 #section-news .link-red {
     margin: 0;
@@ -444,7 +447,6 @@ width: 150px;
     width: 40px;
     margin: 0 auto;
 }
-
 
 
 .news-main-container {
@@ -458,6 +460,24 @@ width: 150px;
     border-radius: 10px;
 }
 
+.news-property {
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.news-container-1 {
+    background-image: url('../img/social/clown.jpg');
+}
+
+.news-container-2 {
+    background-image: url('../img/social/halloween.jpg');
+}
+
+.news-container-3 {
+    background-image: url('../img/social/update1.7.2.jpg');
+}
 
 
 
