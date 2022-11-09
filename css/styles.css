@@ -444,7 +444,7 @@ width: 150px;
 }
 
 #section-news .row .d-flex img {
-    width: 40px;
+    width: 33px;
     margin: 0 auto;
 }
 
@@ -452,12 +452,9 @@ width: 150px;
     background-image: url('../img/social/singer.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
     min-height: 600px;
     position: relative;
-}
-
-.news-border {
-    border-radius: 10px;
 }
 
 .news-property {
@@ -465,6 +462,7 @@ width: 150px;
     background-repeat: no-repeat;
     background-position: center 30%;
     background-size: cover;
+    border-radius: 10px;
     position: relative;
 }
 
