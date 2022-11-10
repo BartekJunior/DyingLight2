@@ -440,7 +440,8 @@ width: 150px;
 }
 
 #section-news .link-red {
-    margin: 0;
+    width: 60px;
+    margin: 10px 0 0;
     padding: 8px 10px;
     font-size: 20px;
     width: auto;
@@ -448,16 +449,17 @@ width: 150px;
 
 #section-news .row .d-flex a {
     display: block;
-    margin: 0 auto;
+    width: 50px;
+    height: 50px;
     padding: 10px;
-    border: solid 1px;
-    border-color: #373737;
+    border: solid 1px #373737;
     border-radius: 50%;
 }
 
 #section-news .row .d-flex img {
     width: 30px;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 #section-news .row .d-flex img:hover {
