@@ -446,9 +446,26 @@ width: 150px;
     width: auto;
 }
 
-#section-news .row .d-flex img {
-    width: 33px;
+#section-news .row .d-flex a {
+    display: block;
     margin: 0 auto;
+    padding: 10px;
+    border: solid 1px;
+    border-color: #373737;
+    border-radius: 50%;
+}
+
+#section-news .row .d-flex img {
+    width: 30px;
+    margin: 0 auto;
+}
+
+#section-news .row .d-flex img:hover {
+    filter: invert(100%);
+}
+
+#section-news .row .d-flex a:hover {
+    background: #000000;
 }
 
 #section-news .news-main-container {
