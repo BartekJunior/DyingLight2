@@ -516,6 +516,40 @@ width: 150px;
 }
 
 
+/* ******************** SECTION MEDIA ******************** */
+
+
+.test3 {
+    display: block;
+    margin: 10px auto;
+}
+
+
+#myDiv1 {
+    display: block;
+    background-color: aqua;
+    margin: 20px auto;
+}
+
+#myDiv2 {
+    display: none;
+    background-color:#000000;
+    margin: 20px auto;
+}
+
+#myDiv3 {
+    display: none;
+    background-color:#a73737;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
 
 
 
