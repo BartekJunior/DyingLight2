@@ -5,7 +5,7 @@ body {
     background-color: #000000;
     margin: 50px 0 50px;
     font-family: 'Lato', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 
@@ -441,6 +441,9 @@ width: 150px;
 
 #section-news .link-red {
     margin: 0;
+    padding: 8px 10px;
+    font-size: 20px;
+    width: auto;
 }
 
 #section-news .row .d-flex img {
@@ -448,7 +451,7 @@ width: 150px;
     margin: 0 auto;
 }
 
-.news-main-container {
+#section-news .news-main-container {
     background-image: url('../img/social/singer.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -457,7 +460,7 @@ width: 150px;
     position: relative;
 }
 
-.news-property {
+#section-news .news-property {
     height: 190px;
     background-repeat: no-repeat;
     background-position: center 30%;
@@ -466,11 +469,11 @@ width: 150px;
     position: relative;
 }
 
-.news-property .news-text {
-    width: 350px;
+#section-news .news-property .news-text {
+    width: auto;
 }
 
-.news-text {
+#section-news .news-text {
     color: #FFFFFF;
     position: absolute;
     left: 20px;
@@ -481,17 +484,21 @@ width: 150px;
     margin-bottom: 10px;
 }
 
-.news-container-1 {
+#section-news .news-container-1 {
     background-image: url('../img/social/clown.jpg');
 }
 
-.news-container-2 {
+#section-news .news-container-2 {
     background-image: url('../img/social/halloween.jpg');
 }
 
-.news-container-3 {
+#section-news .news-container-3 {
     background-image: url('../img/social/update1.7.2.jpg');
 }
+
+
+
+
 
 
 
