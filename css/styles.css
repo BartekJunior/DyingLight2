@@ -526,14 +526,11 @@ section {
 
 #section-media .carousel {
     margin: 0 auto;
-    height: 700px;
-    overflow: hidden;
-    /* display: none; */
+    /* height: 700px; */
 }
 
 #section-media .carousel-inner {
     margin: 0 auto;
-
 }
 
 #section-media img {
