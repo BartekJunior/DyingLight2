@@ -529,9 +529,9 @@ section {
 }
 
 /***** Carousel Graphics *****/
-#carousel-graphics .carousel-inner {
+#section-media .carousel-inner {
     margin: 0 auto;
-    height: 750px;
+    height: 800px;
 }
 
 #carousel-graphics img {
@@ -541,13 +541,27 @@ section {
 }
 
 #carousel-graphics .graphic4 {
-    height: 750px;
-    width: auto;
+    /* min-height: 800px; */
+    /* width: 100%; */
 }
 
 /***** Carousel Screenshots *****/
 
+#carousel-screenshots .carousel-item {
+   height: 700px;
+   position: relative;
+  
+}
 
+#carousel-screenshots img {
+    width: 100%;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+}
 
 
 
