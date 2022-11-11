@@ -528,21 +528,25 @@ section {
     margin: 0 auto;
 }
 
-#section-media #carousel-graphics .carousel-inner {
+/***** Carousel Graphics *****/
+#carousel-graphics .carousel-inner {
     margin: 0 auto;
     height: 750px;
 }
 
-#section-media img {
+#carousel-graphics img {
     width: 100%;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-#section-media #carousel-graphics .graphic4 {
+#carousel-graphics .graphic4 {
     height: 750px;
     width: auto;
 }
+
+/***** Carousel Screenshots *****/
+
 
 
 
