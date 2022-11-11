@@ -526,16 +526,30 @@ section {
 
 #section-media .carousel {
     margin: 0 auto;
-    /* height: 700px; */
 }
 
-#section-media .carousel-inner {
+#section-media #carousel-graphics .carousel-inner {
     margin: 0 auto;
+    height: 750px;
 }
 
 #section-media img {
     width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
+
+#section-media #carousel-graphics .graphic4 {
+    height: 750px;
+    width: auto;
+}
+
+
+
+
+
+
+
 
 
 
@@ -547,7 +561,6 @@ section {
     display: block;
     margin: 10px auto;
 }
-
 
 #myDiv1 {
     display: block;
