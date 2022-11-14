@@ -515,8 +515,7 @@ section {
     background-image: url('../img/social/update1.7.2.jpg');
 }
 
-
-.news-shit {
+.news-gradient {
     background: rgb(42, 41, 18);
     background: linear-gradient(17deg, rgba(42, 41, 18, 1) 20%, rgba(175, 175, 217, 1) 82%);
 }
@@ -528,40 +527,35 @@ section {
     margin: 0 auto;
 }
 
-/***** Carousel Graphics *****/
-#section-media .carousel-inner {
-    margin: 0 auto;
-    height: 800px;
+#section-media .carousel-item {
+    min-height: 700px;
+    position: relative;
+
 }
 
-#carousel-graphics img {
-    width: 100%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-#carousel-graphics .graphic4 {
-    /* min-height: 800px; */
-    /* width: 100%; */
-}
-
-/***** Carousel Screenshots *****/
-
-#carousel-screenshots .carousel-item {
-   height: 700px;
-   position: relative;
-  
-}
-
-#carousel-screenshots img {
-    width: 100%;
-    
+#section-media .carousel-inner img {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-  
 }
+
+@media only screen and (max-width: 1000px) {
+    #section-media .carousel-inner img {
+        max-height: 700px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
