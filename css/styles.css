@@ -42,7 +42,7 @@ section {
     background-image: url('../img/button-red.svg');
     background-color: transparent;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     border: none;
 
     color: #FFFFFF;
@@ -528,12 +528,12 @@ section {
 }
 
 #section-media .carousel-item {
-    min-height: 700px;
+    height: 800px;
     position: relative;
-
 }
 
 #section-media .carousel-inner img {
+    /* height: 1000px; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -541,38 +541,52 @@ section {
 }
 
 @media only screen and (max-width: 1000px) {
-    #section-media .carousel-inner img {
-        max-height: 700px;
+    #section-media .carousel-item img {
+        height: 700px;
+    }
+
+    #section-media .carousel-item {
+        height: 700px;
     }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.test3 {
-    display: block;
-    margin: 10px auto;
+#section-media .button-media {
+    display: inline-block;
+    width: 150px;
+    padding: 13px 10px;
+    border-radius: 5px;
 }
+
+#section-media .button-media:hover {
+    background-image: url('../img/button-red.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #myDiv1 {
     display: block;
