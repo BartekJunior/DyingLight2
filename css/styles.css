@@ -553,9 +553,14 @@ section {
 
 #section-media .button-media {
     display: inline-block;
-    width: 150px;
+    width: 140px;
+    margin: 0;
     padding: 13px 10px;
     border-radius: 5px;
+}
+
+#section-media .btn-margin {
+    margin: 0 2%;
 }
 
 #section-media .button-media:hover {
@@ -564,7 +569,15 @@ section {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: none;
+    color: #FFFFFF;
+}
 
+#section-media .button-media:focus {
+    background-image: url('../img/button-red.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
     color: #FFFFFF;
 }
 
