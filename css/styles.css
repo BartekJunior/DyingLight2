@@ -474,6 +474,7 @@ section {
     background-image: url('../img/social/singer.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     border-radius: 10px;
     min-height: 600px;
     position: relative;
