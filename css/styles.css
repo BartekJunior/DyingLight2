@@ -658,9 +658,11 @@ section {
     #section-fire .fire-video {
         display: none;
     }
+
     #section-fire .fire-image {
         display: block;
     }
+
     #section-fire .fire-info {
         text-align: center;
         position: absolute;
@@ -677,13 +679,22 @@ section {
 
 
 
+/* ******************** SECTION SPONSORS ******************** */
+
+#section-sponsors .msi-img {
+    width: 140px;
+    height: 60px;
+}
+
+#section-sponsors .vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
-
-
-
-
+/* ******************** SECTION FOOTER ******************** */
 
 
 
