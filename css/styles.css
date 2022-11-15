@@ -528,6 +528,10 @@ section {
     margin: 0 auto;
 }
 
+#carousel-screenshots, #carousel-wallpapers {
+    display: none;
+}
+
 #section-media .carousel-item {
     height: 800px;
     position: relative;
@@ -552,6 +556,8 @@ section {
 }
 
 
+
+/*** Carousel Buttons ***/
 #section-media .button-media {
     display: inline-block;
     width: 140px;
