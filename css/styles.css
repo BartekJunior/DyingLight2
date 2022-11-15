@@ -32,6 +32,10 @@ section {
     text-align: center;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%);
@@ -608,10 +612,7 @@ section {
     .techland-container {
         height: 600px;
     }
-    .techland-info {
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
 }
 
 .techland-info {
@@ -621,9 +622,35 @@ section {
 
     position: absolute;
     top: 50%;
-    left: 70px;
+    left: 60px;
     transform: translateY(-50%);
+}
 
+
+
+/* ******************** SECTION FIRE ******************** */
+
+.fire-container {
+    position: relative;
+    color: #FFFFFF;
+}
+
+.fire-video-itself {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.fire-info {
+    width: 430px;
+
+    position: absolute;
+    top: 45%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+
+.button-orange {
+    background-image: url(../img/button-orange.png);
 }
 
 
@@ -633,33 +660,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-#myDiv1 {
-    display: block;
-    background-color: aqua;
-    margin: 20px auto;
-}
-
-#myDiv2 {
-    display: none;
-    background-color: #000000;
-    margin: 20px auto;
-}
-
-#myDiv3 {
-    display: none;
-    background-color: #a73737;
-    margin: 20px auto;
-}
 
 
 
