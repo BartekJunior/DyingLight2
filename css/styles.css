@@ -528,7 +528,8 @@ section {
     margin: 0 auto;
 }
 
-#carousel-screenshots, #carousel-wallpapers {
+#carousel-screenshots,
+#carousel-wallpapers {
     display: none;
 }
 
@@ -590,6 +591,40 @@ section {
 
 
 
+/* ******************** SECTION TECHLAND-GG ******************** */
+
+.techland-container {
+    height: 750px;
+    background-image: url(../img/techland-gg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    .techland-container {
+        height: 600px;
+    }
+    .techland-info {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.techland-info {
+    display: block;
+    max-width: 340px;
+    width: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+
+}
 
 
 
