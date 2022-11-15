@@ -597,7 +597,7 @@ section {
 
 /* ******************** SECTION TECHLAND-GG ******************** */
 
-.techland-container {
+#techland-gg .techland-container {
     height: 750px;
     background-image: url(../img/techland-gg.jpg);
     background-repeat: no-repeat;
@@ -615,7 +615,7 @@ section {
 
 }
 
-.techland-info {
+#techland-gg .techland-info {
     display: block;
     max-width: 340px;
     width: auto;
@@ -630,26 +630,48 @@ section {
 
 /* ******************** SECTION FIRE ******************** */
 
-.fire-container {
+#section-fire .fire-container {
     position: relative;
     color: #FFFFFF;
 }
 
-.fire-video-itself {
+#section-fire .fire-video {
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-.fire-info {
+#section-fire .fire-image {
+    display: none;
+    width: 100%;
+}
+
+#section-fire .fire-info {
     width: 430px;
 
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 60px;
     transform: translateY(-50%);
 }
 
-.button-orange {
+@media only screen and (max-width: 500px) {
+    #section-fire .fire-video {
+        display: none;
+    }
+    #section-fire .fire-image {
+        display: block;
+    }
+    #section-fire .fire-info {
+        text-align: center;
+        position: absolute;
+        top: 230px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+#section-fire .button-orange {
     background-image: url(../img/button-orange.png);
 }
 
