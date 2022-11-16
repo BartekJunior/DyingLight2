@@ -636,6 +636,7 @@ section {
 }
 
 #section-fire .fire-video {
+    vertical-align: middle;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -691,8 +692,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
-
 
 /* ******************** SECTION FOOTER ******************** */
 
