@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
-    margin: 50px 0 50px;
+    /* margin: 50px 0 50px; */
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
@@ -681,7 +681,8 @@ section {
 
 
 /* ******************** SECTION SPONSORS ******************** */
-#section-sponsors, #section-footer {
+#section-sponsors,
+#section-footer {
     background-color: #000000;
 }
 
@@ -697,7 +698,9 @@ section {
 }
 
 /* ******************** SECTION FOOTER ******************** */
-
+#section-footer {
+    padding: 0 0 50px;
+}
 
 #section-footer .container {
     color: #828282;
@@ -722,93 +725,25 @@ section {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-/* TEST TEST TEST TEST TEST TEST TEST TEST
-TEST TEST TEST TEST TEST TEST TEST TEST
-TEST TEST TEST TEST TEST TEST TEST TEST
-TEST TEST TEST TEST TEST TEST TEST TEST */
-
-
-
-#test {
-    display: none;
-}
-
-.border-shit {
-    background-image: url('../img/timeline/bloody-summer.jpg');
-    margin: 0 auto 50px;
-    width: 880px;
-    height: 600px;
-    text-align: center;
-
-    position: relative;
-}
-
-.border-shit::before {
-    width: 300px;
-    height: 300px;
-
-    background-image: url('../img/timeline/border-left.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-
-    position: absolute;
-    left: -8px;
-    bottom: -11px;
-}
-
-#test {
-    margin-top: 1000px;
-}
-
-
-/* TEST ICON */
-
-.icon-div {
-    overflow: hidden;
-    width: 500px;
+#language {
+    display: block;
+    width: 170px;
+    height: 30px;
+    background-color: #000000;
+    color: #828282;
+    font-size: 18px;
     margin: 0 auto;
 }
 
-.icon {
-    width: 900px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+#section-footer .techland-image {
+    display: block;
+    margin: 30px auto 20px;
+}
+#section-footer p {
+    margin: 0;
 }
 
-/* TEST TECHLAND STYLE */
-.test {
-    position: relative;
-}
 
-.test::after {
 
-    background-image: url('../img/cloud.png');
-    background-position-x: 50%;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-    height: 100%;
-    margin: 0 auto;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    width: 250px;
-    z-index: 9;
-}
 
-.video-test {
-    vertical-align: middle;
-}
+
