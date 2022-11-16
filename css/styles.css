@@ -681,6 +681,9 @@ section {
 
 
 /* ******************** SECTION SPONSORS ******************** */
+#section-sponsors, #section-footer {
+    background-color: #000000;
+}
 
 #section-sponsors .msi-img {
     width: 140px;
@@ -696,9 +699,28 @@ section {
 /* ******************** SECTION FOOTER ******************** */
 
 
+#section-footer .container {
+    color: #828282;
+}
 
+#section-footer .col {
+    text-align: left;
+}
 
+#section-footer ul {
+    list-style: none;
+    padding: 0;
+}
 
+#section-footer li {
+    font-weight: 600;
+}
+
+#section-footer .pegi18-image {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
 
 
 
