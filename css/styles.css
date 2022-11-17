@@ -403,9 +403,9 @@ section {
 /* ******************** SECTION FADE ******************** */
 
 #section-fade .container-fluid {
-    margin: 0 10px 0 40px;
+    /* margin: 0 10px 0 40px; */
     padding: 0 12px;
-    width: 97%;
+    width: 100%;
 }
 
 #section-fade .trailer-iframe {
@@ -419,12 +419,12 @@ section {
 #section-fade .border-trailer {
     padding: 100px 4% 70px 20px;
     margin-bottom: 20px;
-    width: 100%;
+    /* width: 100%; */
     height: 530px;
 
     background-image: url('../img/button-border.svg');
-    background-size: 100% 100%;
-    background-position: 50% 50%;
+    background-size: 100% 95%;
+    background-position: center center;
     background-repeat: no-repeat;
 
     filter: invert(100%);
@@ -738,7 +738,6 @@ section {
 }
 
 
-
 /* ******************** SECTION SPONSORS ******************** */
 #section-sponsors,
 #section-footer {
@@ -755,7 +754,8 @@ section {
     height: 60px;
 }
 
-#section-sponsors .vertical-center {
+/* Vertical Center Very Important */
+.vertical-center {
     display: flex;
     align-items: center;
     justify-content: center;
