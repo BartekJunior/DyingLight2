@@ -111,24 +111,24 @@ section {
 
     #video-double .container-fluid::before {
         background-image: url(../img/cloud.png);
-        background-position: center;
-        background-size: auto 100%;
+        /* background-position: center; */
+        background-size: 170px 100%;
         background-repeat: no-repeat;
         content: "";
         position: absolute;
-        top: -6px;
+        top: 20px;
         right: 0;
         left: 0;
-        margin: 0 auto;
         pointer-events: none;
-
-        height: 100%;
-        width: 100%;
+        
         z-index: 9;
-
         transform: rotate(90deg);
+
+        /* margin: 0 auto; */
+        min-height: 980px;
+        /* width: 100%; */
     }
-    
+
     #video-double .video-container {
         height: 455px;
     }
