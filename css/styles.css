@@ -136,20 +136,15 @@ section {
     #video-double .video-double-itself {
         width: 140%;
     }
-
-
-
 }
 
 
 
+/* This shit below is strictly for different Cloud! */
 #video-double .row {
     position: relative;
     /* For DIV .cloud position absolute */
 }
-
-
-
 /* #video-double .cloud {
     display: inline-block;
     padding: 0;
@@ -166,9 +161,7 @@ section {
 
 
 
-
-
-/* Text Only and Red Line */
+/* Video Text Only and Red Line */
 
 #video-double .video-text {
     position: absolute;
