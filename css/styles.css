@@ -686,6 +686,11 @@ section {
     background-color: #000000;
 }
 
+#section-sponsors .col,
+#section-footer .col {
+    margin-top: 20px;
+}
+
 #section-sponsors .msi-img {
     width: 140px;
     height: 60px;
