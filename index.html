@@ -41,6 +41,7 @@
 
     <script>
 
+
         function changeDisplay1() {
             const myDiv1 = document.getElementById("carousel-graphics");
             const myDiv2 = document.getElementById("carousel-screenshots");
@@ -92,7 +93,8 @@
                 <div class="col col-12 col-lg-6">
                     <div class="video-container">
                         <video class="video-double-itself" src="./img/home-hero-left.mp4" onmouseover="this.play()"
-                            onmouseout="this.pause(); this.currentTime=auto;" autoplay loop muted playsinline poster></video>
+                            onmouseout="this.pause(); this.currentTime=auto;" autoplay loop muted playsinline
+                            poster></video>
                         <div class="video-text">
                             <img class="video-logo" src="./img/logo-left.png" alt="logo-left">
                             <button class="button-red">Kup teraz</button>
@@ -106,7 +108,8 @@
                     <div class="video-container">
 
                         <video class="video-double-itself" src="./img/home-hero-right.mp4" onmouseover="this.play()"
-                            onmouseout="this.pause() ;this.currentTime=auto;" autoplay loop muted playsinline poster></video>
+                            onmouseout="this.pause() ;this.currentTime=auto;" autoplay loop muted playsinline
+                            poster></video>
                         <div class="video-text">
                             <img class="video-logo" src="./img/logo-right.png" alt="">
                             <button class="button-red">Zamów już teraz</button>
@@ -138,7 +141,7 @@
 
         <div class="container-fluid">
 
-            <div id="carousel-timeline" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel-timeline" class="carousel slide" data-bs-interval="false">
                 <div class="carousel-inner ">
 
                     <div class="carousel-item item1 active">
@@ -513,7 +516,7 @@
 
         <div class="container-fluid">
 
-            <div id="carousel-trailer" class="carousel slide" data-bs-ride="carousel" data-bs-interval="20000">
+            <div id="carousel-trailer" class="carousel slide" data-bs-interval="false">
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
@@ -663,7 +666,7 @@
 
 
         <!-- Carousel Graphics -->
-        <div id="carousel-graphics" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carousel-graphics" class="carousel slide carousel-fade" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/media/graphics/graphic1.jpeg" class="d-block" alt="...">
@@ -708,7 +711,7 @@
 
 
         <!-- Carousel Screenshots -->
-        <div id="carousel-screenshots" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carousel-screenshots" class="carousel slide carousel-fade" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/media/screenshot/Screenshot1.jpeg" class="d-block" alt="...">
@@ -756,7 +759,7 @@
 
 
         <!-- Carousel Wallpapers -->
-        <div id="carousel-wallpapers" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carousel-wallpapers" class="carousel slide carousel-fade" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/media/wallpaper/wallpaper1.png" class="d-block" alt="...">
