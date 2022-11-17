@@ -209,7 +209,6 @@ section {
 
 
 
-
 /* ******************** SECTION TIMELINE ******************** */
 
 #section-timeline {
@@ -245,7 +244,6 @@ section {
     background-position: center;
     background-size: cover;
 }
-
 
 
 
@@ -402,10 +400,11 @@ section {
 }
 
 
-/* ******************** SECTION COOL ******************** */
+/* ******************** SECTION FADE ******************** */
 
-#section-fade.container-fluid {
+#section-fade .container-fluid {
     margin: 0 10px 0 40px;
+    padding: 0 12px;
     width: 97%;
 }
 
