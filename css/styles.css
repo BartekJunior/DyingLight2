@@ -4,12 +4,22 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: red;
-
+    background-color: #000000;
 
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
+
+@media only screen and (max-device-width: 400px) {
+    body {
+      background-attachment: scroll;
+      background-size: 100%;
+      background-position: top center;
+      background-repeat: repeat;
+    }
+  }
+
+
 
 
 h1,
