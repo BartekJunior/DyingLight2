@@ -53,6 +53,7 @@ section {
     padding: 15px 0;
     width: 240px;
     text-transform: uppercase;
+    pointer-events: all;
 
     position: relative;
     /* position relative for border .svg */
@@ -88,12 +89,68 @@ section {
     transform: translateX(-50%);
 }
 
-#video-double .row {
-    position: relative;
-    /* For .cloud position absolute */
+#video-double .container-fluid::before {
+    background-image: url(../img/cloud.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    pointer-events: none;
+
+    height: 100%;
+    width: 250px;
+    z-index: 9;
 }
 
-#video-double .cloud {
+@media only screen and (max-width: 991px) {
+
+    #video-double .container-fluid::before {
+        background-image: url(../img/cloud.png);
+        background-position: center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        content: "";
+        position: absolute;
+        top: -6px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        pointer-events: none;
+
+        height: 100%;
+        width: 100%;
+        z-index: 9;
+
+        transform: rotate(90deg);
+    }
+    
+    #video-double .video-container {
+        height: 455px;
+    }
+
+    #video-double .video-double-itself {
+        width: 140%;
+    }
+
+
+
+}
+
+
+
+#video-double .row {
+    position: relative;
+    /* For DIV .cloud position absolute */
+}
+
+
+
+/* #video-double .cloud {
     display: inline-block;
     padding: 0;
     width: auto;
@@ -104,7 +161,14 @@ section {
     top: 0;
     margin: 0 auto;
     z-index: 3;
-}
+} */
+
+
+
+
+
+
+/* Text Only and Red Line */
 
 #video-double .video-text {
     position: absolute;
@@ -117,12 +181,14 @@ section {
 
     width: 250px;
     height: 180px;
+    pointer-events: none;
 
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
 }
+
 
 #video-double .video-logo {
     display: block;
@@ -144,8 +210,9 @@ section {
     height: 20px;
 }
 
-
-
+#video-double .col {
+    padding: 0;
+}
 
 
 
@@ -744,11 +811,7 @@ section {
     display: block;
     margin: 30px auto 20px;
 }
+
 #section-footer p {
     margin: 0;
 }
-
-
-
-
-
