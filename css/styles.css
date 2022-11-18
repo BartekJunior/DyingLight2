@@ -505,7 +505,7 @@ section {
 @media only screen and (max-width: 991px) {
 
     #section-trailer .trailer-container {
-        height: 500px;
+        height: 600px;
     }
 
     #section-trailer .trailer-description {
@@ -774,9 +774,10 @@ section {
     }
 
     #section-fire .fire-info {
+        width: 330px;
         text-align: center;
         position: absolute;
-        top: 230px;
+        top: 170px;
         left: 50%;
         transform: translateX(-50%);
     }
