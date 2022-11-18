@@ -16,6 +16,12 @@ body {
         background-attachment: scroll;
         background-size: 100% 900px;
         background-position: top center;
+
+
+
+        -webkit-overflow-x: hidden;
+        -moz-overflow-x: hidden;
+        -o-overflow-x: hidden;
     }
 }
 
@@ -87,6 +93,7 @@ section {
 
 
 /* ******************** SECTION VIDEO-DOUBLE ******************** */
+
 
 #video-double .video-container {
     overflow: hidden;
