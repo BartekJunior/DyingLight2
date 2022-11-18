@@ -94,23 +94,6 @@ section {
 
 /* ******************** SECTION VIDEO-DOUBLE ******************** */
 
-#video-double .row {
-    margin: 0;
-}
-
-#video-double .video-container {
-    overflow: hidden;
-    height: auto;
-    position: relative;
-}
-
-#video-double .video-double-itself {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
 /* #video-double .container-fluid::before {
     background-image: url(../img/cloud.png);
     background-position: center;
@@ -150,14 +133,24 @@ section {
 } */
 
 
-
-
-
 #video-double .row {
+    margin: 0;
     position: relative;
-    /* For DIV .cloud position absolute */
+    /* For DIV .cloud-vertical position absolute */
 }
 
+#video-double .video-container {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+}
+
+#video-double .video-double-itself {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
 
 #video-double .cloud-vertical {
     display: inline-block;
@@ -188,7 +181,6 @@ section {
         padding: 0;
         pointer-events: none;
 
-
         position: absolute;
         left: 0;
         right: 0;
@@ -196,7 +188,6 @@ section {
         transform: translateY(-50%);
         z-index: 3;
     }
-
 
     #video-double .cloud-vertical {
         display: none;
@@ -209,9 +200,7 @@ section {
 
 
 
-
 /* Video Text Only and Red Line */
-
 #video-double .video-text {
     position: absolute;
     top: 180px;
@@ -230,7 +219,6 @@ section {
     align-items: center;
     justify-content: end;
 }
-
 
 #video-double .video-logo {
     display: block;
