@@ -17,8 +17,6 @@ body {
         background-size: 100% 900px;
         background-position: top center;
 
-
-
         -webkit-overflow-x: hidden;
         -moz-overflow-x: hidden;
         -o-overflow-x: hidden;
@@ -490,6 +488,9 @@ section {
     width: 110%;
 }
 
+#section-fade button {
+    margin-bottom: 20px;
+}
 
 
 /* ******************** SECTION TRAILER ******************** */
@@ -499,6 +500,18 @@ section {
     height: auto;
     width: 100%;
     position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+
+    #section-trailer .trailer-container {
+        height: 500px;
+    }
+
+    #section-trailer .trailer-description {
+        display: none;
+    }
+
 }
 
 #section-trailer .trailer-itself {
