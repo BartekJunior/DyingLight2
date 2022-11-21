@@ -704,31 +704,33 @@ section {
 
 #techland-gg .techland-container {
     height: 750px;
+    padding: 1px;
     background-image: url(../img/techland-gg.jpg);
+    /* background-color: #828282; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     border-radius: 10px;
     color: #FFFFFF;
-    position: relative;
-}
-
-@media only screen and (max-width: 1000px) {
-    .techland-container {
-        height: 600px;
-    }
-
 }
 
 #techland-gg .techland-info {
     display: block;
     max-width: 340px;
-    width: auto;
+    margin-left: 70px;
+    margin-top: 150px;
 
-    position: absolute;
-    top: 50%;
-    left: 60px;
-    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1000px) {
+    #techland-gg .techland-container {
+        height: 600px;
+    }
+
+    #techland-gg .techland-info {
+       margin: 15% auto 0 auto;
+        text-align: center;
+    }
 }
 
 
