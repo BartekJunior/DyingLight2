@@ -85,6 +85,29 @@ section {
 
 
 
+/*------------------- NAVBAR -------------------*/
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar .navbar-brand {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.navbar .nav-link {
+    font-size: 19px;
+}
+
+.nav-link:hover {
+    color: #DB0811;
+}
+
+.nav-link:focus {
+    color: #DB0811;
+}
+
 
 /* ******************** SECTION VIDEO-DOUBLE ******************** */
 
@@ -126,6 +149,9 @@ section {
     }
 } */
 
+#video-double {
+    padding-top: 0;
+}
 
 #video-double .row {
     margin: 0;
@@ -655,7 +681,6 @@ section {
 }
 
 #section-media .carousel-inner img {
-    /* height: 1000px; */
     position: absolute;
     left: 50%;
     top: 50%;
