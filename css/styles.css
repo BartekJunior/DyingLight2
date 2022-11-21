@@ -190,12 +190,14 @@ section {
     #video-double .video-container {
         height: 600px;
     }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 850px) {
 
     #video-double .video-double-itself {
-        min-width: 100%;
-        min-height: 500px;
+        width: 100%;
     }
-
 }
 
 
@@ -734,7 +736,7 @@ section {
     }
 
     #techland-gg .techland-info {
-       margin: 15% auto 0 auto;
+        margin: 15% auto 0 auto;
         text-align: center;
     }
 }
