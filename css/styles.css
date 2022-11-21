@@ -91,9 +91,8 @@ section {
     background-color: #000000;
 }
 
-.navbar .navbar-brand {
-    margin-right: 50px;
-    font-size: 30px;
+.navbar .navbar-logo {
+    width: 140px;
 }
 
 .navbar .nav-link {
