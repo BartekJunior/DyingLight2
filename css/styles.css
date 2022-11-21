@@ -187,9 +187,15 @@ section {
         display: none;
     }
 
-    #video-double .video-double-itself {
-        width: 140%;
+    #video-double .video-container {
+        height: 600px;
     }
+
+    #video-double .video-double-itself {
+        min-width: 100%;
+        min-height: 500px;
+    }
+
 }
 
 
