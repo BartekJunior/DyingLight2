@@ -40,7 +40,6 @@
 
     <script>
 
-
         function changeDisplay1() {
             const myDiv1 = document.getElementById("carousel-graphics");
             const myDiv2 = document.getElementById("carousel-screenshots");
@@ -72,6 +71,11 @@
                 myDiv1.style.display = "none";
                 myDiv2.style.display = "none";
             }
+        }
+
+         // All buttons links to Error
+         function visitPage() {
+            window.location = 'zombie.html';
         }
 
     </script>
@@ -140,7 +144,7 @@
                             poster></video>
                         <div class="video-text">
                             <img class="video-logo" src="./img/logo-left.png" alt="logo-left">
-                            <button class="button-red">Kup teraz</button>
+                            <button class="button-red" onclick="visitPage()">Kup teraz</button>
                         </div>
                     </div>
                 </div>
@@ -155,7 +159,7 @@
                             poster></video>
                         <div class="video-text">
                             <img class="video-logo" src="./img/logo-right.png" alt="">
-                            <button class="button-red">Zamów już teraz</button>
+                            <button class="button-red" onclick="visitPage()">Zamów już teraz</button>
                         </div>
                     </div>
                 </div>
@@ -537,7 +541,7 @@
                         bastionów ludzkiej cywilizacji. Poznaj jego mieszkańców i przywróć im nadzieję na lepsze jutro,
                         jednocześnie odkrywając własną, dawno zapomnianą przeszłość.</p>
 
-                    <button class="button-red">Kup teraz</button>
+                    <button class="button-red" onclick="visitPage()">Kup teraz</button>
                 </div>
 
                 <div class="col-12 col-xl-7 col-right vertical-center" data-aos="fade-up" data-aos-delay="100">
@@ -621,7 +625,6 @@
 
     <!------------- SECTION NEWS ------------->
 
-
     <section id="section-news">
 
         <div class="container-xl">
@@ -631,7 +634,7 @@
                     <h1>Aktualności</h1>
                 </div>
                 <div class="d-none d-xl-block col-xl-4 text-center">
-                    <a class="link-red" href="www.katsail.pl">Więcej aktualności &#8594;</a>
+                    <a class="link-red" href="https://www.katsail.pl">Więcej aktualności &#8594;</a>
                 </div>
             </div>
 
@@ -685,7 +688,7 @@
                 </div>
 
                 <div class="col-12 d-xl-none text-center my-4">
-                    <a class="link-red" href="www.katsail.pl">Więcej aktualności &#8594;</a>
+                    <a class="link-red" href="https://www.katsail.pl">Więcej aktualności &#8594;</a>
                 </div>
             </div>
         </div>
@@ -858,7 +861,7 @@
                 <h4>Dołącz do nas</h4>
                 <p>Dołącz do naszej społeczności graczy. Dowiedz się jak najwięcej o mieście i o najważniejszych
                     wydarzeniach ze świata Dying Light 2 Stay Human.</p>
-                <button class="button-red">Więcej na TechlandGG</button>
+                <button class="button-red" onclick="visitPage()">Więcej na TechlandGG</button>
             </div>
         </div>
 
@@ -882,7 +885,7 @@
                     przez siedem długich lat. To najprawdziwsze świadectwo wysiłku włożonego w naszą grę. Społeczność
                     pokochała ją w każdym calu, dlatego zamierzamy kontynuować jej dziedzictwo w ramach kolejnej części.
                     Jeśli chcesz dowiedzieć się więcej na temat historii pierwszego Dying Light…</p>
-                <button class="button-red button-orange">Odkryj Więcej</button>
+                <button class="button-red button-orange" onclick="visitPage()">Odkryj Więcej</button>
             </div>
         </div>
 
