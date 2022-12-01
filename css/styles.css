@@ -298,7 +298,7 @@ section {
     overflow: visible;
 }
 
-#section-timeline .carousel-item {
+#section-timeline .carousel-item, .swiper-slide {
     position: relative;
     height: 600px;
     padding: 0 20px;
@@ -311,7 +311,7 @@ section {
 
 
 /* CAROUSEL ITEM BORDER */
-#section-timeline .carousel-item::before {
+#section-timeline .carousel-item::before, .swiper-slide::before {
     width: 300px;
     height: 300px;
 
@@ -325,7 +325,7 @@ section {
     bottom: -11px;
 }
 
-#section-timeline .carousel-item::after {
+#section-timeline .carousel-item::after, .swiper-slide::after {
     width: 300px;
     height: 300px;
 
