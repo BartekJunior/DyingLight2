@@ -305,7 +305,6 @@ section {
 #section-timeline .swiper-slide img {
     display: block;
     height: 100%;
-    margin: 0 auto;
 }
 
 #section-timeline .swiper-button-next::after,
@@ -403,6 +402,23 @@ section {
 #section-timeline .item-p {
     display: inline-block;
     width: 70%;
+}
+
+/* Mobile cards timeline carousel */
+@media only screen and (max-width: 700px) {
+    #section-timeline .swiper-slide {
+        width: 350px;
+        height: 470px;
+    }
+
+    #section-timeline .swiper-button-prev,
+    #section-timeline .swiper-button-next {
+        display: none;
+    }
+
+    #section-timeline .item-date {
+        margin: 10px 0 10px;
+    }
 }
 
 
